@@ -1,0 +1,8 @@
+version "4.14"
+
+#include "zscript/words.zs"
+#include "zscript/fx.zs"
+#include "zscript/mobs.zs"
+#include "zscript/cat.zs"
+#include "zscript/rules.zs"
+#include "zscript/hud.zs"

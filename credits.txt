@@ -1,0 +1,44 @@
+# Credits - SuperIntelligent Cat (Doom / GZDoom mod)
+
+Code, rule system, HUD and sprite renders: made for this mod. No assets from commercial games.
+
+## 3D models (rendered into Doom sprites)
+- **Kenney Cube Pets** (animal-cat, animal-pig, animal-cow, animal-chick and their animations, colormap texture): CC0 1.0, by Kenney (https://kenney.nl/assets/cube-pets). Rendered in Blender into 8-angle sprites; the cat recoloured ginger with green eyes and given modelled glasses and a graduation cap; an egg modelled for the chickens.
+
+## Fonts
+- **Kenney Fonts** ("Kenney Pixel Square", used for the rule word blocks and the HUD font): CC0 1.0, by Kenney (https://kenney.nl/assets/kenney-fonts).
+
+## Effects
+- **Kenney Particle Pack** (smoke, circle/light, star and spark particles, pixelated into the poof, XP orb and sparkle sprites): CC0 1.0, by Kenney (https://kenney.nl/assets/particle-pack).
+- Block chips: cut from the Minetest textures below.
+
+## Textures
+- **Minetest Game textures** (the 16x16 pixel blocks in `mod/mctex/<block>.png`): CC BY-SA 3.0, Copyright (C) 2010-2023 the Minetest Game texture authors: celeron55, Perttu Ahola <celeron55@gmail.com>, Cisoun, G4JC, VanessaE, RealBadAngel, Calinou, MirceaKitsune, Jordach, PilzAdam, jojoa1997, InfinityProject, Splizard, Zeg9, paramat, BlockMen, sofar, Neuromancer, Gambit, asl97, KevDoy, Mito551, GreenXenith, kaeza, kilbith, tobyplowy, CloudyProton, TumeniNodes, Mossmanikin, random-geek, Extex101, An0n3m0us, Lopano (license text: https://creativecommons.org/licenses/by-sa/3.0/). Source: https://github.com/minetest/minetest_game. Pixel blocks scaled, some tinted or composited (for example ore overlays on stone, netherrack/nether brick/terracotta/deepslate/lapis/quartz-style recolours, liquid animation frames). Because of the ShareAlike licence, the modified block images are also released under CC BY-SA 3.0.
+- **Kenney Voxel Pack** (`clouds.png`, used to build the blocky sky `mod/mctex/sky.png`): CC0 1.0, by Kenney (https://kenney.nl). Pixelated and nearest-scaled onto a stepped blue gradient.
+- **Freedoom** (the pixelated originals `mod/mctex/px_*.png`: switches, exit signs, computer screens, key doors, teleporter pads, paintings and see-through grates/bars): BSD-style licence, (c) the Freedoom contributors (https://freedoom.github.io). These images are derived from Freedoom's own textures in freedoom2.wad, reduced to 1/4 resolution with nearest-neighbour sampling.
+
+## Sounds
+All sounds are CC0 1.0 (public domain dedication); credit given anyway. Freesound sounds were taken from the HQ preview mp3.
+
+Format: file â€” original title â€” author â€” source URL â€” license â€” changes
+
+- cat_meow.wav â€” cat meow â€” tuberatanka â€” https://freesound.org/people/tuberatanka/sounds/110011/ â€” CC0 1.0 â€” trimmed, normalized, mono 44.1 kHz, fade-out
+- cat_meow2.wav â€” Cat trill 4 â€” MBPL â€” https://freesound.org/people/MBPL/sounds/668825/ â€” CC0 1.0 â€” trimmed, normalized, mono 44.1 kHz, fade-out
+- cat_hiss.wav â€” Cat Hissing â€” aunrea â€” https://freesound.org/people/aunrea/sounds/485952/ â€” CC0 1.0 â€” trimmed, normalized, mono 44.1 kHz, fade-out
+- cat_yowl.wav â€” Cat Screams â€” StormMiguel â€” https://freesound.org/people/StormMiguel/sounds/191938/ â€” CC0 1.0 â€” trimmed, normalized, mono 44.1 kHz, fade-out
+- cat_purr.wav â€” Cat short purr â€” Mafon2 â€” https://freesound.org/people/Mafon2/sounds/436542/ â€” CC0 1.0 â€” trimmed, normalized, mono 44.1 kHz, fade-out
+- word_push.wav â€” cinderblockmove2.wav â€” j1987 â€” https://freesound.org/people/j1987/sounds/95001/ â€” CC0 1.0 + impactWood_heavy_000.ogg (Kenney "Impact Sounds" pack) â€” Kenney (kenney.nl) â€” https://kenney.nl/assets/impact-sounds â€” CC0 1.0 â€” trimmed, normalized, layered/mixed, mono 44.1 kHz, fade-out
+- rule_on.wav â€” Cliche Magic Spell Sound â€” qubodup â€” https://freesound.org/people/qubodup/sounds/817466/ â€” CC0 1.0 â€” trimmed, normalized, mono 44.1 kHz, fade-out
+- rule_off.wav â€” zapThreeToneDown.ogg (Kenney "Digital Audio" pack) â€” Kenney (kenney.nl) â€” https://kenney.nl/assets/digital-audio â€” CC0 1.0 â€” trimmed, normalized, mono 44.1 kHz, fade-out
+- poof.wav â€” Puff of Smoke â€” qubodup â€” https://freesound.org/people/qubodup/sounds/714257/ â€” CC0 1.0 â€” trimmed, normalized, mono 44.1 kHz, fade-out
+- xp_ding.wav â€” glass_ding.mp3 â€” hihirex â€” https://freesound.org/people/hihirex/sounds/66876/ â€” CC0 1.0 â€” trimmed, normalized, mono 44.1 kHz, fade-out
+- levelup.wav â€” Game Powerup â€” Jofae â€” https://freesound.org/people/Jofae/sounds/368651/ â€” CC0 1.0 â€” trimmed, normalized, mono 44.1 kHz, fade-out
+- chicken.wav â€” Chicken Single Alarm Call â€” Rudmer_Rotteveel â€” https://freesound.org/people/Rudmer_Rotteveel/sounds/316920/ â€” CC0 1.0 â€” trimmed, normalized, mono 44.1 kHz, fade-out
+- pig.wav â€” Pig Oink â€” qubodup â€” https://freesound.org/people/qubodup/sounds/442906/ â€” CC0 1.0 â€” trimmed, normalized, mono 44.1 kHz, fade-out
+- cow.wav â€” z-moo01.wav â€” Zozzy â€” https://freesound.org/people/Zozzy/sounds/59245/ â€” CC0 1.0 â€” trimmed, normalized, mono 44.1 kHz, fade-out
+- egg_splat.wav â€” Egg Crack â€” davdud101 â€” https://freesound.org/people/davdud101/sounds/150479/ â€” CC0 1.0 + Mud Splat â€” Breviceps â€” https://freesound.org/people/Breviceps/sounds/445109/ â€” CC0 1.0 â€” trimmed, normalized, layered/mixed, mono 44.1 kHz, fade-out
+- block_hit.wav â€” impactMining_000.ogg (Kenney "Impact Sounds" pack) â€” Kenney (kenney.nl) â€” https://kenney.nl/assets/impact-sounds â€” CC0 1.0 â€” trimmed, normalized, mono 44.1 kHz, fade-out
+- laser.wav â€” laserLarge_000.ogg (Kenney "Sci-Fi Sounds" pack) â€” Kenney (kenney.nl) â€” https://kenney.nl/assets/sci-fi-sounds â€” CC0 1.0 â€” trimmed, normalized, mono 44.1 kHz, fade-out
+- hurt.wav â€” impactPunch_medium_000.ogg (Kenney "Impact Sounds" pack) â€” Kenney (kenney.nl) â€” https://kenney.nl/assets/impact-sounds â€” CC0 1.0 â€” trimmed, normalized, mono 44.1 kHz, fade-out
+- transform.wav â€” Magic Whoosh â€” DustyWind â€” https://freesound.org/people/DustyWind/sounds/715784/ â€” CC0 1.0 â€” trimmed, normalized, mono 44.1 kHz, fade-out
+- thud.wav â€” BODY FALL - V HVY - DIRT â€” leonelmail â€” https://freesound.org/people/leonelmail/sounds/504626/ â€” CC0 1.0 â€” trimmed, normalized, mono 44.1 kHz, fade-out

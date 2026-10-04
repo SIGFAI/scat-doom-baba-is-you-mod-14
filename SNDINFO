@@ -1,0 +1,25 @@
+sic/meow       sounds/cat_meow.ogg
+sic/meow2      sounds/cat_meow2.ogg
+sic/cathiss    sounds/cat_hiss.ogg
+sic/catyowl    sounds/cat_yowl.ogg
+sic/purr       sounds/cat_purr.ogg
+sic/push       sounds/word_push.ogg
+sic/ruleon     sounds/rule_on.ogg
+sic/ruleoff    sounds/rule_off.ogg
+sic/poof       sounds/poof.ogg
+sic/xp         sounds/xp_ding.ogg
+sic/levelup    sounds/levelup.ogg
+sic/chicken    sounds/chicken.ogg
+sic/pig        sounds/pig.ogg
+sic/cow        sounds/cow.ogg
+sic/eggsplat   sounds/egg_splat.ogg
+sic/blockhit   sounds/block_hit.ogg
+sic/laser      sounds/laser.ogg
+sic/hurt       sounds/hurt.ogg
+sic/transform  sounds/transform.ogg
+sic/thud       sounds/thud.ogg
+
+$random sic/catmeow { sic/meow sic/meow2 }
+$limit sic/blockhit 3
+$limit sic/xp 2
+$limit sic/hurt 2
