@@ -3,6 +3,12 @@
   "version": "1.0.0",
   "name": "SCAT, mod 14: Doom × Baba Is You",
   "tagline": "Turn every game into Minecraft. This time, mix in Baba Is You with a funny twist of your own.",
+  "how_to_play": [
+    "Beat the SuperIntelligent Cat, who keeps writing Baba-style rules like IMP IS CHICKEN in word blocks.",
+    "Shoot a rule's word blocks out of line to break it; a freshly written rule cannot be moved for a few seconds.",
+    "Take all 9 of the cat's lives: each time you knock it out, it comes back and writes a revenge rule.",
+    "Start a new game: the cat appears in front of you within a few seconds; the rules list and its lives are on screen."
+  ],
   "kind": "mashup",
   "games": [
     {
